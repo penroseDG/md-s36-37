@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;   
+    }
+    label {
+    display: flex ;
+    margin: 10px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 30px ;
+    border: 20%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+button:hover {
+    background-color: #45a049;
+}
+   </style>
+</head>
+<body>
+    <div class="container">
+        <form id="answerForm">
+            <label for="answer"> Your answer </label>
+            <input type="text" id="answer" name="answer">
+            <br>
+            <button type="button" onclick="dapan()"> answer </button>
+            <p id="result"></p>
+        </form>
+    </div>
+    <script src="s1.js"></script>
+</body>
+</html>
